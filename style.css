@@ -1,0 +1,46 @@
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles des onglets */
+input[type="radio"] {
+    display: none;
+}
+
+label {
+    display: inline-block;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #3f51b5;
+    color: #fff;
+    margin-right: -1px;
+    border: 1px solid #ddd;
+    border-radius: 5px 5px 0 0;
+}
+
+label:hover {
+    background-color: #5c6bc0;
+}
+
+/* Styles du contenu des onglets */
+.tab-content {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles pour la liste à puces */
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin-bottom: 10px;
+}
